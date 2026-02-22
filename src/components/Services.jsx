@@ -1,4 +1,4 @@
-import { Sparkles, Palette, Camera, Megaphone, BarChart3, Lightbulb } from 'lucide-react'
+import { Sparkles, Palette, Theater , Megaphone, BarChart3, Lightbulb } from 'lucide-react'
 
 export default function Services() {
   const services = [
@@ -9,22 +9,22 @@ export default function Services() {
     },
     {
       icon: Palette,
-      title: 'Branding',
+      title: 'Events Management',
       description: 'Complete brand strategy and visual identity development.'
     },
     {
-      icon: Camera,
-      title: 'Production',
+      icon: Theater ,
+      title: 'Stage & Backdrops',
       description: 'Professional production and photography services.'
     },
     {
       icon: Megaphone,
-      title: 'Marketing & PR',
+      title: '3D Designing & Production',
       description: 'Strategic marketing campaigns and public relations management.'
     },
     {
       icon: BarChart3,
-      title: 'Event Management',
+      title: 'Kiosk & Display Stands',
       description: 'Full-service event coordination and execution.'
     },
     {

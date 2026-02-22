@@ -1,9 +1,9 @@
 import p1 from '../assets/portfolio/p1.jpg'
-import p2 from '../assets/portfolio/p1.jpg'
-import p3 from '../assets/portfolio/p1.jpg'
-import p4 from '../assets/portfolio/p1.jpg'
-import p5 from '../assets/portfolio/p1.jpg'
-import p6 from '../assets/portfolio/p1.jpg'
+import p2 from '../assets/portfolio/p2.jpg'
+import p3 from '../assets/portfolio/p3.jpg'
+import p4 from '../assets/portfolio/p4.jpg'
+import p5 from '../assets/portfolio/p5.jpg'
+import p6 from '../assets/portfolio/p6.jpg'
 
 export default function Portfolio() {
   const projects = [
@@ -45,7 +45,7 @@ export default function Portfolio() {
         
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-blue-950 mb-4">
             Our Portfolio
           </h2>
           <div className="w-24 h-1 bg-gray-800 mx-auto"></div>
@@ -71,7 +71,7 @@ export default function Portfolio() {
     ></div>
 
     {/* Overlay */}
-    <div className="absolute inset-0 bg-black/50 group-hover:bg-black/60 transition duration-500 flex items-end p-6">
+    <div className="absolute inset-0 bg-black/3 0 group-hover:bg-black/60 transition duration-500 flex items-end p-6">
       <div className="text-white">
         <p className="text-sm font-semibold text-secondary mb-2">
           {project.category}

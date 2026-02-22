@@ -220,7 +220,7 @@ export default function Contact() {
               <Phone size={28} className="text-secondary" />
               <div>
                 <h3 className="text-xl font-bold text-primary mb-1">Phone</h3>
-                <p className="text-gray-600">+971 (0) 123 456 789</p>
+                <p className="text-gray-600">+971 5474 729 81</p>
               </div>
             </div>
 
@@ -228,7 +228,7 @@ export default function Contact() {
               <Mail size={28} className="text-secondary" />
               <div>
                 <h3 className="text-xl font-bold text-primary mb-1">Email</h3>
-                <p className="text-gray-600">info@heritage.ae</p>
+                <p className="text-gray-600">heritageevents@gmail.com</p>
               </div>
             </div>
 
@@ -237,7 +237,7 @@ export default function Contact() {
               <div>
                 <h3 className="text-xl font-bold text-primary mb-1">Address</h3>
                 <p className="text-gray-600">
-                  Heritage Tower<br />
+                  Zayed First Street, Khalidiya<br />
                   Abu Dhabi, UAE
                 </p>
               </div>
@@ -299,14 +299,14 @@ export default function Contact() {
             <button
               type="submit"
               disabled={loading}
-              className="w-full bg-secondary text-primary py-3 font-bold rounded-lg hover:bg-yellow-500 transition disabled:opacity-50 cursor-pointer"
+              className="w-full bg-orange-700 text-primary py-3 font-bold rounded-lg hover:bg-gray-600 transition disabled:opacity-50 cursor-pointer text-white"
             >
               {loading ? "Sending..." : "Send Message"}
             </button>
 
             {success && (
               <p className="text-green-600 text-center">
-                Message sent successfully!
+              📩 Thanks for reaching out — we’ll get back to you soon.
               </p>
             )}
 
