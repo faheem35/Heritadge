@@ -3,3 +3,14 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* WhatsApp floating animation */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0px); }
+}
+
+.whatsapp-float {
+  animation: float 2.5s ease-in-out infinite;
+}

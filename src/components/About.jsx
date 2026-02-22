@@ -40,12 +40,22 @@ export default function About() {
                 Discover More
               </button> */}
 
-              <a
+              {/* <a
   href="#portfolio"
-  className="bg-orange-600 text-white px-8 py-3 font-semibold hover:bg-gray-700 transition mt-6 inline-block"
+  className="bg-orange-700 text-white px-8 py-3 font-semibold hover:bg-gray-700 transition mt-6 inline-block "
 >
   Discover More
-</a>
+</a> */}
+
+
+<div className="flex justify-center md:justify-start mt-6">
+  <a
+    href="#portfolio"
+    className="bg-orange-700 text-white px-8 py-3 font-semibold hover:bg-gray-700 transition rounded-lg"
+  >
+    Discover More
+  </a>
+</div>
 
             </div>
           </div>

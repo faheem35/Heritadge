@@ -1,3 +1,6 @@
+
+import c1 from "../assets/clients/c1.jpg";
+
 export default function Clients() {
   const clients = [
     'Global Corp',
@@ -15,7 +18,7 @@ export default function Clients() {
 
     <section
   className="relative py-20 text-gray-600 bg-cover bg-center bg-no-repeat"
-  style={{ backgroundImage: "url('src/assets/clients/c1.jpg')" }}
+  style={{ backgroundImage: `url(${c1})` }}
 >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16  pt-16">

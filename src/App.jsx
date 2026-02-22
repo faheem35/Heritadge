@@ -7,6 +7,7 @@ import Portfolio from './components/Portfolio'
 import Clients from './components/Clients'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import WhatsAppButton from './components/WhatsAppButton'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Clients />
       <Contact />
       <Footer />
+      <WhatsAppButton />
     </div>
   )
 }
