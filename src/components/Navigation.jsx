@@ -109,19 +109,19 @@ export default function Navigation() {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-10">
-            <a href="#home" className="text-lg md:text-xl font-medium text-primary hover:text-secondary transition">
+            <a href="#home" className="text-lg md:text-xl font-medium text-blue-950 hover:text-gray-500 transition">
               Home
             </a>
-            <a href="#about" className="text-lg md:text-xl font-medium text-primary hover:text-secondary transition">
+            <a href="#about" className="text-lg md:text-xl font-medium text-black  hover:text-gray-600 transition">
               About
             </a>
-            <a href="#services" className="text-lg md:text-xl font-medium text-primary hover:text-secondary transition">
+            <a href="#services" className="text-lg md:text-xl font-medium text-black  hover:text-gray-600 transition">
               Services
             </a>
-            <a href="#portfolio" className="text-lg md:text-xl font-medium text-primary hover:text-secondary transition">
+            <a href="#portfolio" className="text-lg md:text-xl font-medium text-black  hover:text-gray-600 transition">
               Portfolio
             </a>
-            <a href="#contact" className="text-lg md:text-xl font-medium text-primary hover:text-secondary transition">
+            <a href="#contact" className="text-lg md:text-xl font-medium text-black hover:text-gray-600 transition">
               Contact
             </a>
           </div>
@@ -138,19 +138,19 @@ export default function Navigation() {
         {/* Mobile Menu */}
         {isOpen && (
           <div className="md:hidden pb-6 space-y-4 text-center">
-            <a href="#home" className="block text-lg font-medium text-primary hover:text-secondary ">
+            <a href="#home" className="block text-lg font-medium text-black hover:text-gray-600 ">
               Home
             </a>
-            <a href="#about" className="block text-lg font-medium text-primary hover:text-secondary">
+            <a href="#about" className="block text-lg font-medium text-black hover:text-gray-600">
               About
             </a>
-            <a href="#services" className="block text-lg font-medium text-primary hover:text-secondary">
+            <a href="#services" className="block text-lg font-medium text-black hover:text-gray-600">
               Services
             </a>
-            <a href="#portfolio" className="block text-lg font-medium text-primary hover:text-secondary">
+            <a href="#portfolio" className="block text-lg font-medium text-black hover:text-gray-600">
               Portfolio
             </a>
-            <a href="#contact" className="block text-lg font-medium text-primary hover:text-secondary">
+            <a href="#contact" className="block text-lg font-medium text-black hover:text-gray-600">
               Contact
             </a>
           </div>
