@@ -228,7 +228,7 @@ export default function Contact() {
               <Mail size={28} className="text-secondary" />
               <div>
                 <h3 className="text-xl font-bold text-primary mb-1">Email</h3>
-                <p className="text-gray-600">heritageevents@gmail.com</p>
+                <p className="text-gray-600">heritadgeevents@gmail.com</p>
               </div>
             </div>
 
@@ -254,7 +254,7 @@ export default function Contact() {
               value={formData.name}
               onChange={handleChange}
               required
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-secondary"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-gray-600"
             />
 
             <input
@@ -264,7 +264,7 @@ export default function Contact() {
               value={formData.email}
               onChange={handleChange}
               required
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-secondary"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-gray-600"
             />
 
             <input
@@ -273,7 +273,7 @@ export default function Contact() {
               placeholder="Phone Number"
               value={formData.phone}
               onChange={handleChange}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-secondary"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-gray-600"
             />
 
             <input
@@ -283,7 +283,7 @@ export default function Contact() {
               value={formData.subject}
               onChange={handleChange}
               required
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-secondary"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-gray-600"
             />
 
             <textarea
@@ -293,7 +293,7 @@ export default function Contact() {
               onChange={handleChange}
               rows="5"
               required
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-secondary resize-none"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-gray-600 resize-none"
             ></textarea>
 
             <button

@@ -30,7 +30,7 @@ export default function Clients() {
           {clients.map((client, index) => (
             <div
               key={index}
-             className="group bg-orange-700 rounded-lg p-8 flex items-center justify-center h-32 hover:bg-gray-700 transition-all duration-300 border border-gray-200 hover:shadow-lg"
+             className="group bg-orange-700 rounded-lg p-8 flex items-center justify-center h-32 hover:bg-gray-600 transition-all duration-300 border border-gray-200 hover:shadow-lg"
             >
               <p className="text-white group-hover:text-white  text-center font-semibold">{client}</p>
             </div>
