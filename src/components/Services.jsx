@@ -9,7 +9,7 @@ export default function Services() {
     },
     {
       icon: Palette,
-      title: 'Events Management',
+      title: 'Event Management',
       description: 'Complete brand strategy and visual identity development.'
     },
     {
