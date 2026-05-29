@@ -88,12 +88,7 @@ export default function Portfolio() {
           ))}
         </div>
 
-        {/* Button */}
-        <div className="text-center mt-14">
-          <button className="bg-primary text-white px-8 py-3 font-semibold hover:bg-gray-900 transition duration-300 rounded-md">
-            View All Projects
-          </button>
-        </div>
+    
 
       </div>
     </section>
