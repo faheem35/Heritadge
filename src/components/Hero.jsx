@@ -35,10 +35,10 @@ export default function Hero() {
           
           {/* Left Content */}
           <div className="flex flex-col justify-center order-2 lg:order-1 text-center lg:text-left py-16 lg:py-32 xl:py-40">
-           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold mb-6 leading-tight text-orange-700">
-  Heritadge 
+         <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold mb-6 leading-tight text-orange-700">
+  Heritadge
   <br className="hidden sm:block" />
-  <span className="text-orange-700">Events Management & Exhibitions</span>
+  <span className="text-orange-700 sm:inline block">Events Management & Exhibitions</span>
 </h1>
 
             <p className="text-base sm:text-xl text-gray-700 mb-8 leading-relaxed max-w-lg mx-auto lg:mx-0">
