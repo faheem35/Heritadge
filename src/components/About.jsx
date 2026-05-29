@@ -1,4 +1,4 @@
-import aboutImg from '../assets/about/a1.jpg'
+import aboutImg from '../assets/about/a1.jpeg'
 
 export default function About() {
   return (
@@ -18,7 +18,7 @@ export default function About() {
 
           <div>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Heritage is a premier exhibition management company dedicated to creating remarkable experiences that showcase brands and ideas in compelling ways. With years of expertise in the industry, we bring creativity, precision, and passion to every project.
+        Heritadge Events Management & Exhibitions is a premier exhibition management company dedicated to creating remarkable experiences that showcase brands and ideas in compelling ways. With years of expertise in the industry, we bring creativity, precision, and passion to every project.
             </p>
 
             <div className="space-y-6">

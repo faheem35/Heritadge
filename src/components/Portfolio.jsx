@@ -1,8 +1,8 @@
-import p1 from '../assets/portfolio/p1.jpg'
+import p1 from '../assets/portfolio/p1.jpeg'
 import p2 from '../assets/portfolio/p2.jpg'
 import p3 from '../assets/portfolio/p3.jpg'
 import p4 from '../assets/portfolio/p4.jpg'
-import p5 from '../assets/portfolio/p5.jpg'
+import p5 from '../assets/portfolio/p5.jpeg'
 import p6 from '../assets/portfolio/p6.jpg'
 
 export default function Portfolio() {
@@ -70,17 +70,17 @@ export default function Portfolio() {
       style={{ backgroundImage: `url(${project.image})` }}
     ></div>
 
-    {/* Overlay */}
-    <div className="absolute inset-0 bg-black/3 0 group-hover:bg-black/60 transition duration-500 flex items-end p-6">
-      <div className="text-white">
-        <p className="text-sm font-semibold text-secondary mb-2">
-          {project.category}
-        </p>
-        <h3 className="text-xl font-bold">
-          {project.title}
-        </h3>
-      </div>
-    </div>
+   {/* Overlay */}
+<div className="absolute inset-0 bg-black/30 group-hover:bg-black/60 transition duration-500 flex items-end p-6">
+  <div className="text-white w-full text-center">
+    <p className="text-sm font-semibold text-orange-400 mb-2">
+      {project.category}
+    </p>
+    <h3 className="text-xl font-bold">
+      {project.title}
+    </h3>
+  </div>
+</div>
 
   </div>
 </div>

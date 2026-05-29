@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 
 import heroImg from "../assets/hero/hero.jpg";
-import h2 from "../assets/hero/h2.jpg";
+import h2 from "../assets/hero/h2.jpeg";
 
 export default function Hero() {
   const [count, setCount] = useState(0);
@@ -73,7 +73,7 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-black/10 rounded-3xl"></div>
 
-              <div className="relative text-center z-10 px-4 w-full h-full flex flex-col items-center justify-center">
+              <div className="relative text-center z-10 px-4 w-full h-full flex flex-col items-center justify-start pt-10">
                 <div className="text-5xl sm:text-7xl lg:text-9xl xl:text-[10rem] 2xl:text-[12rem] font-bold text-amber-700  mb-4 drop-shadow-lg">
                   {count}+
                 </div>
