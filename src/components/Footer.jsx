@@ -43,9 +43,9 @@ export default function Footer() {
               <a href="#" className="text-white hover:text-gray-950 transition">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="text-white hover:text-gray-950 transition">
-                <Instagram size={20} />
-              </a>
+            <a href="https://www.instagram.com/heritadge" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-950 transition">
+  <Instagram size={20} />
+</a>
               <a href="#" className="text-white hover:text-gray-950 transition">
                 <Linkedin size={20} />
               </a>
