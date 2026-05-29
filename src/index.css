@@ -1,7 +1,28 @@
 @import "tailwindcss";
 
+/* ADD THIS - prevents browser zoom inconsistencies */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+}
+
+/* Define your custom colors for Tailwind v4 */
+@theme {
+  --color-primary: #7c2d12;
+  --color-secondary: #b45309;
+  --color-cream: #fffbeb;
 }
 
 /* WhatsApp floating animation */
